@@ -1,0 +1,100 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(230,230,230);
+}
+
+header {
+    padding: 3rem 2rem;
+    background-color: #016064;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.barra2 {
+    list-style: none;
+    padding: 0;
+    background-color: #414951;
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.barra2 li {
+    display: inline-block;
+    text-align: center;
+}
+
+.barra2 li a {
+    font-size: 17px;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+}
+
+.barra2 li a:hover {
+    background-color: #016064;
+    cursor: pointer;
+}
+
+.contenedor2 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imagen2 {
+    margin: 20px 0px 20px 0px;
+    width: 500px;
+    text-align: center;
+}
+
+body section article h2 {
+    color: #016064;
+}
+
+body section article h3 {
+    color: #3C3C3C;
+}
+
+body section article p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.video2, .audio1 {
+    width: 800px;
+}
+
+footer {
+    background-color: #202020;
+    padding: 3rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 1.3s ease;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: #616161;
+}
+
+footer p {
+    margin: 0;
+}

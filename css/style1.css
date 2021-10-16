@@ -1,0 +1,103 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(230,230,230);
+}
+
+header {
+    padding: 3rem 2rem;
+    background-color: #281E5D;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0;
+}
+
+.barra1 {
+    list-style: none;
+    padding: 0;
+    background-color: #414951;
+    width: 80%;
+    max-width: 100%;
+    margin: auto;
+}
+
+.barra1 li {
+    display: inline-block;
+    text-align: center;
+}
+
+.barra1 li a {
+    font-size: 17px;
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    display: block;
+}
+
+.barra1 li a:hover {
+    background-color: #281E5D;
+    cursor: pointer;
+}
+
+.contenedor1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.imagen1 {
+    margin: 20px 0px 20px 0px;
+    width: 800px;
+    text-align: center;
+}
+
+body section article h2 {
+    color: #281E5D;
+}
+
+body section article h3 {
+    color: #3C3C3C;
+}
+
+body section article p {
+    text-align: justify;
+    font-size: 18px;
+}
+
+.video1, .audio1 {
+    width: 800px;
+}
+
+footer {
+    background-color: #202020;
+    padding: 3rem;
+    color: white;
+}
+
+footer section {
+    float: right;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 1.3s ease;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: #616161;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+
