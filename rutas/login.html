@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="../css/sesion/login.css">
+    <link rel="stylesheet" href="../css/sesion/styles.css">
+</head>
+
+<body>
+    <form action="">
+        <div>
+            <img src="../img/user.png" alt="">
+        </div>
+        <div>
+            <span>Correo Electrónico</span>
+            <input type="email">
+        </div>
+        <div>
+            <span>Contraseña</span>
+            <input type="password"><br>
+            <a href="">¿Olvidaste tu contraseña?</a><br>
+        </div>
+        <div>
+            <button>Entrar</button>
+        </div>
+    </form>
+</body>
+
+<script>
+    window.onload = () => {
+        var spanFocus = document.getElementsByTagName('span');
+        var inputFocus = document.getElementsByTagName('input');
+        var color1 = '#00719e';
+        inputFocus[0].addEventListener('focus', (event) => {
+            inputFocus[0].style.borderColor = color1;
+            spanFocus[0].style.color = color1;
+        });
+        inputFocus[1].addEventListener('focus', (event) => {
+            inputFocus[1].style.borderColor = color1;
+            spanFocus[1].style.color = color1;
+        });
+        inputFocus[0].addEventListener('blur', (event) => {
+            inputFocus[0].style.borderColor = '#9E9E9E';
+            spanFocus[0].style.color = 'rgb(87, 87, 87)';
+        });
+        inputFocus[1].addEventListener('blur', (event) => {
+            inputFocus[1].style.borderColor = '#9E9E9E';
+            spanFocus[1].style.color ='rgb(87, 87, 87)';
+        });
+
+        var require = document.getElementsByTagName('input');
+        for(let i=0;i<require.length;i++){
+            require[i].setAttribute("required", "");
+        }
+    }
+</script>
+</html>

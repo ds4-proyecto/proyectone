@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrase</title>
+    <link rel="stylesheet" href="../css/sesion/register.css">
+    <link rel="stylesheet" href="../css/sesion/styles.css">
+</head>
+
+<body>
+    <form action="">
+        <div class="input-flex">
+            <input type="text" placeholder="Nombre">
+            <input type="text" placeholder="Apellido">
+        </div>
+        <div>
+            <input type="email" placeholder="Correo electrónico">
+        </div>
+        <div>
+            <input type="password" placeholder="Contraseña">
+        </div>
+        <div>
+            <input type="password" placeholder="Repetir Contraseña">
+        </div>
+        <div class="input-flex">
+            <span>Fecha de nacimiento</span>
+            <input type="date">
+        </div>
+        <div class="input-flex">
+            <select name="" id="">
+                <option value="">Seleccione su sexo</option>
+                <option value="">Hombre</option>
+                <option value="">Mujer</option>
+                <option value="">Indefinido</option>
+            </select>
+        </div>
+        <div>
+            <button>Crear Cuenta</button>
+        </div>
+    </form>
+
+    <script>
+        window.onload = function(e){
+            var require = document.getElementsByTagName('input');
+            for(let i=0;i<require.length;i++){
+                require[i].setAttribute("required", "");
+            }
+        }
+    </script>
+</body>
+</html>

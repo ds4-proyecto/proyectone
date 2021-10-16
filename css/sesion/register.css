@@ -1,0 +1,49 @@
+form{
+    margin: auto;
+    display: block;
+    width: 350px;
+    padding: 25px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 70px;
+}
+
+form div{
+    margin-bottom: 20px;
+}
+
+input div{
+    margin: auto;
+}
+
+input{
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.input-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-flex input{
+    width: 45%;
+    margin: 0;
+}
+
+select{
+    width: 100%;
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    background-color: rgb(9, 145, 43);
+}
+
+button:hover{
+    background-color: rgb(8, 119, 36);
+}
+
+input:focus{
+    border-color:  rgb(9, 145, 43);
+}
